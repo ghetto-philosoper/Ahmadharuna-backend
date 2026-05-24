@@ -1,4 +1,16 @@
-# Ahmadharuna Backend
+cd ahmadharuna-backend
+
+npm install
+
+docker compose up -d
+
+npx prisma generate
+
+npx prisma migrate dev --name init
+
+npm run db:seed
+
+npm run dev# Ahmadharuna Backend
 
 Backend API for Slim General Merchant Nigeria Limited
 

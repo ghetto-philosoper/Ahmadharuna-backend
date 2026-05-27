@@ -4,4 +4,4 @@ cp .env.example .env
 npm run db:generate
 npm run db:migrate
 npm run db:seed
-npm run dev
+npm run dev 
